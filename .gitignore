@@ -1,0 +1,56 @@
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+# Profile and config folders
+.ipython
+profile_default/
+ipython_config.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- Virtual Environments ---
+.venv
+venv
+ENV
+env.bak
+venv.bak
+
+# --- Data and Logs ---
+# Often better to store data elsewhere, but if it's in the project:
+*.log
+*.sqlite
+*.csv
+*.json
+# (Uncomment below if you want to ignore all data files)
+# data/
+
+# --- Operating System ---
+.DS_Store
+Thumbs.db
+
+# --- Environments/Secrets ---
+.env
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
