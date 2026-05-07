@@ -36,6 +36,12 @@ ENV
 env.bak
 venv.bak
 
+.myenv_new
+myenv_new
+ENV
+myenv_new.bak
+myenv_new.bak
+
 # --- Data and Logs ---
 # Often better to store data elsewhere, but if it's in the project:
 *.log
