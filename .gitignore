@@ -60,3 +60,6 @@ Thumbs.db
 .venv
 pip-log.txt
 pip-delete-this-directory.txt
+
+# PyCharm
+.idea
